@@ -30,9 +30,9 @@
         <div class="navbar-brand">
             <span class="navbar-item is-size-5 has-text-grey-dark">Search For A City: </span>
 
-            <input class="input is-rounded mt-2" type="text" placeholder="Your City" style="max-width:300px">
+            <input id="search" class="input is-rounded mt-2" type="search" placeholder="Your City" style="max-width:300px">
 
-            <button class="button is-dark is-rounded mt-2 ml-3">Search</button>
+            <button id="searchBtn" class="button is-dark is-rounded mt-2 ml-3" type="submit">Search</button>
         </div>
 
     </nav>
@@ -44,30 +44,51 @@
     <div class="container">
 
         <div class="columns">
-            <div class="column is-3">
+            <div class="column is-2 has-text-centered ">
               Here's the history
             </div>
-            <div class="column is-8">
-              Here's the result
+            <div class="column is-9 has-background-info-light">
+                <div class="container jumbotron">
+              <div class="is-size-3 has-text-grey-dark has-text-weigth-bold ml-2">What could you find out in the forecast?</div>
+              <br>
+              <ul class="is-size-5 has-text-grey-dark has-text-weigth-bold ml-6 mt-5">
+                <li>Temperature</li>
+                <br>
+                <li>Wind Speed</li>
+                <br>
+                <li>Humidity</li>
+                <br>
+                <li class="mb-5">UV Index</li>
+              </ul>
+
+              <div id="five-day" class="card">
+                <div class="card-content">
+                    <div class="content is-size-6 has-text-grey-dark has-text-weigth-bold">
+                    </div>
+                </div>
+              </div>
+
+
+            </div>   
             </div>
+
+            <!-- creat space -->
             <div class="column is-1">
-              create space
-            </div>
           </div>
 
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
+    <script src="https://code.jquery.com/jquery-3.5.0.js"
+    integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+</script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="assets\main.js"></script>
   
 </body>
 

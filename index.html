@@ -28,7 +28,7 @@
 
     <nav class="narvar is-white has-shadow">
         <div class="navbar-brand">
-            <span class="navbar-item is-size-5 has-text-grey-dark">Search For A City: </span>
+            <span class="navbar-item is-size-4 has-text-grey-dark ml-6">Search For A City: </span>
 
             <input id="search" class="input is-rounded mt-2" type="search" placeholder="Your City" style="max-width:300px">
 
@@ -44,25 +44,30 @@
     <div class="container">
 
         <div class="columns">
-            <div class="column is-2 has-text-centered ">
-              Here's the history
+            <div id="search-list" class="column is-2 ml-2">     
+              
             </div>
+
+
+
             <div class="column is-9 has-background-info-light">
                 <div class="container jumbotron">
-              <div class="is-size-3 has-text-grey-dark has-text-weigth-bold ml-2">What could you find out in the forecast?</div>
+              <div class="is-size-3 has-text-grey-dark has-text-weigth-bold ml-2">What could you find out in this forecast?</div>
               <br>
               <ul class="is-size-5 has-text-grey-dark has-text-weigth-bold ml-6 mt-5">
-                <li>Temperature</li>
+                <li class="lead city">First Enter Your City Name</li>
                 <br>
-                <li>Wind Speed</li>
+                <li class="lead temp">Temperature</li>
                 <br>
-                <li>Humidity</li>
+                <li class="lead wind">Wind Speed</li>
                 <br>
-                <li class="mb-5">UV Index</li>
+                <li class="lead humidity">Humidity</li>
+                <br>
+                <li class="lead ux-index mb-5">UV Index</li>
               </ul>
 
-              <div id="five-day" class="card">
-                <div class="card-content">
+              <div class="card">
+                <div id="five-day"class="card-content">
                     <div class="content is-size-6 has-text-grey-dark has-text-weigth-bold">
                     </div>
                 </div>
@@ -77,6 +82,7 @@
           </div>
 
 
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"

@@ -1,18 +1,17 @@
-GIVEN a weather dashboard with form inputs
+# WeatherDashboard
+
+### This is a weather dashboard application that aid to tell people the five days future forecast for a city that people searched.
+
+## MockUp
+
+### Enter the city that you want to know the future weather; I enter Oakland in this case.
+<img src='assets\1.png'>
+
+### Here's the result
+<img src='assets\2.png'>
+
+## Live Site
 
 
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-
-
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-
-
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-
-
-
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+## License
+### No License

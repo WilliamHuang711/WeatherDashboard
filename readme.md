@@ -12,7 +12,7 @@
 
 ## Live Site
 
-https://github.com/WilliamHuang711/WeatherDashboard.git
+https://williamhuang711.github.io/WeatherDashboard/
 
 
 ## License
